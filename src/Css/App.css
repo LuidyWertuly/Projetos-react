@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  background-image: url("../Image/Fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+
+.App, .App2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.borda{
+  border: 5px solid #ccc;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
+  padding: 80px 40px 80px 40px;
+  border-radius: 40px;
+  width: 60%;
+  background-color: black;
+  color: white;
+}
+
+.borda h1{
+  margin-bottom: 20px;
+}
+
+.borda input{
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  width: 60%;
+  border: none;
+  font-size: 18px;
+}
+
+.borda input[type="button"]{
+  background-color: blue;
+  width: 20%;
+  cursor: pointer;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+}
+
+.teste{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Buscas{
+  width: 100%;
+}
+
+.Clima{
+  margin-top: 40px;
+  border: 3px solid #ccc;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: rgb(11, 67, 170);
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Clima img{
+  width: 100px;
+  height: 100px;
+}
+
+.divisor{
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0 10px 0;
+  width: 50%;
+}
+
+.espacador{
+  margin: 10px 0 10px 0;
+}
+
+#temp{
+  font-size: 38px;
+}
